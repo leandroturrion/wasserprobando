@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.form-register {
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+ .controlls {
+
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    color: white;
+ }
+
+ .form-register p {
+     height: 40px;
+     text-align: center;
+     font-size: 18px;
+    
+
+
+ }
+
+
+ .form-register a {
+     color: white;
+     text-decoration: none;
+
+ }
+ .form-register a:hover {
+     color: rgb(199, 47, 47);
+     text-decoration: underline;
+ }
+ 
+
+ .form-register .botons {
+     width: 100%;
+     background: #1f53c5;
+     border: none;
+     padding:12px;
+     color: white;
+     margin: 16px 0;
+     font-size: 16px;
+           
+    }
+    #logo{
+        width: 5px;
+        height: 5px;
+        float: left;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .slider {
+        width: 95%;
+        margin: auto;
+        overflow: hidden;
+    }
+    .slider ul {
+        display: flex;
+        padding: 0;
+        width: 400%;
+    
+        animation: cambio 20s infinite alternate linear;
+        animation-direction: alternate;
+    }
+    
+    .slider li{
+        width: 100%;
+        list-style: none;
+    }
+    
+    .slider img {
+        width: 100%;
+    }
+    
+    @keyframes cambio{
+        0% {margin-left: 0;}
+        20% {margin-left: 0;}
+    
+        25% {margin-left: -100%;}
+        45% {margin-left: -100%;}
+    
+        50% {margin-left: -200%;}
+        70% {margin-left: -200%;}
+    
+        75% {margin-left: -300%;}
+        100% {margin-left: -300%;}
+    }
+    
+    /*Menu*/
+    #menuHorizontal{
+        max-width: 1000px;
+        min-height: 50px;
+        background: #000;
+        margin: 0 auto;
+    }
+    #menuHorizontal ul{
+        list-style:none;
+        display:flex;
+        justify-content: right
+    }
+    #menuHorizontal a{
+        color:#fff;
+        display:block;
+        padding:20px;
+        text-decoration: none;
+        background:#000;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+    #menuHorizontal a:hover {
+        background: #069;
+    }
+    
+    #menuHorizontal ul ul{
+        display:none;
+        position: absolute;
+    }
+    #menuHorizontal ul li:hover ul{
+        display: block;
+    }
+    /*abajo*/
+    #menuabajo{
+        max-width: 1000px;
+        min-height: 50px;
+        background: #000;
+        margin: 0 auto;
+    }
+    #menuabajo ul{
+        list-style:none;
+        display:flex;
+        justify-content: right
+    }
+    #menuabajo a{
+        color:#fff;
+        display:block;
+        padding:20px;
+        text-decoration: none;
+        background:#000;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+    #menuabajo a:hover {
+        background: #069;
+    }
+    
+
